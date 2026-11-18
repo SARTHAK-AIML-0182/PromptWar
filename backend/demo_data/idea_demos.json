@@ -1,0 +1,26 @@
+[
+  {
+    "id": "idea-crop-ai",
+    "chip_label": "🌾 AI Crop Disease Detection",
+    "title": "AI Crop-Disease Detection for Farmers",
+    "description": "A multilingual WhatsApp-based AI assistant for smallholder farmers in India. Farmers snap a photo of damaged crop leaves, and the AI diagnoses the disease in 5 seconds, recommends locally available organic or pesticide treatments in their native language (Hindi, Marathi, Telugu), and connects them to vetted local agri-retailers for delivery.",
+    "industry": "AgriTech",
+    "target_market": "India / Tier-3 & Rural"
+  },
+  {
+    "id": "idea-hyperlocal-pharma",
+    "chip_label": "💊 Hyperlocal Pharmacy Delivery",
+    "title": "Hyperlocal 15-Minute Prescription Delivery",
+    "description": "An ultra-fast prescription fulfillment network aggregating independent local mom-and-pop pharmacies (chemists) across tier-2 cities. Instead of massive dark stores, it connects nearby verified licensed chemists with gig delivery riders, guaranteeing 15-minute emergency medicine delivery with automated digital prescription verification.",
+    "industry": "HealthTech",
+    "target_market": "India / Tier-2 & Tier-3 Cities"
+  },
+  {
+    "id": "idea-interview-prep",
+    "chip_label": "🎯 AI Interview Prep for Tier-2 Colleges",
+    "title": "Vernacular AI Mock Interviews for Tier-2 College Students",
+    "description": "An AI-powered voice and video mock interview simulator specifically engineered for engineering and commerce students from non-metro colleges. It conducts realistic technical and HR interviews, offers bilingual Hinglish feedback on voice modulation, code explanations, and English fluency, and matches top performers with partner tech hiring managers.",
+    "industry": "EdTech",
+    "target_market": "India / College Graduates"
+  }
+]

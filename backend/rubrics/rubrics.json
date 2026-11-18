@@ -1,0 +1,92 @@
+{
+  "problem_solution_fit": {
+    "name": "Problem–Solution Fit",
+    "description": "Clarity and severity of customer pain point, validated need, and directness of the proposed solution.",
+    "criteria": {
+      "high": "Score 7-10: Urgent, well-defined problem affecting identifiable users; clear value proposition with 10x improvement over status quo.",
+      "medium": "Score 4-6.9: Real problem exists but solution lacks sharp differentiation or targets a diffuse audience; value prop is incremental.",
+      "low": "Score 0-3.9: Vague problem, solution looking for a problem, or users already adequately served by free/existing alternatives."
+    }
+  },
+  "market_size_timing": {
+    "name": "Market Size & Timing",
+    "description": "Total Addressable Market (TAM), serviceable market (SAM), obtainable market (SOM), market growth rate (CAGR), and timing tailwinds.",
+    "criteria": {
+      "high": "Score 7-10: Large growing market (TAM > $10B or expanding > 15% CAGR); strong timing tailwinds (regulations, tech shifts, behavior changes).",
+      "medium": "Score 4-6.9: Moderate market ($1B-$10B) with modest growth (5-15% CAGR); neutral timing or standard market dynamics.",
+      "low": "Score 0-3.9: Niche or shrinking market (< $1B, < 5% CAGR); headwinds or saturated legacy space with high barriers."
+    }
+  },
+  "competition_moat": {
+    "name": "Competition & Moat",
+    "description": "Competitive landscape density, incumbent positioning, and presence of defensible moats (network effects, switching costs, tech IP).",
+    "criteria": {
+      "high": "Score 7-10: Clear uncrowded positioning gap or unique defensible moat; well-understood competitor weaknesses.",
+      "medium": "Score 4-6.9: Moderate competition; differentiation exists but can be copied; limited structural moats in early stages.",
+      "low": "Score 0-3.9: Red ocean dominated by well-funded incumbents with negligible switching costs; zero tangible moats."
+    }
+  },
+  "customer_demand": {
+    "name": "Customer Demand",
+    "description": "Target persona clarity, evidence of urgency, validated willingness to pay, and customer acquisition pull.",
+    "criteria": {
+      "high": "Score 7-10: Concrete personas with demonstrated urgency and proven willingness to pay; clear pull.",
+      "medium": "Score 4-6.9: General buyer profile; theoretical interest exists but commercial commitment is unverified.",
+      "low": "Score 0-3.9: Broad untargeted demographic; low willingness to pay or high reluctance to switch from current habits."
+    }
+  },
+  "business_model": {
+    "name": "Business Model",
+    "description": "Monetization strategy clarity, pricing alignment with customer value, recurring revenue potential, and scalability.",
+    "criteria": {
+      "high": "Score 7-10: High-margin recurring or transactional model with high pricing power and clear unit revenue expansion.",
+      "medium": "Score 4-6.9: Viable monetization model, but margin pressure or single-stream revenue vulnerability exists.",
+      "low": "Score 0-3.9: Unclear monetization ('will monetize later via ads') or negative unit economics at baseline."
+    }
+  },
+  "unit_economics": {
+    "name": "Unit Economics",
+    "description": "LTV:CAC ratio (healthy >= 3x), gross margin % (SaaS >= 70%), payback period (< 12 months), and churn stability.",
+    "criteria": {
+      "high": "Score 7-10: LTV:CAC >= 3.5x, gross margin > 65%, payback <= 12 months, low churn (< 3%/mo).",
+      "medium": "Score 4-6.9: LTV:CAC between 2.0x-3.0x, margins 40-60%, or payback 12-18 months.",
+      "low": "Score 0-3.9: LTV:CAC < 1.5x (losing money per customer acquired), gross margins < 30%, payback > 24 months, or high churn."
+    }
+  },
+  "team_execution": {
+    "name": "Team & Execution",
+    "description": "Founder-market fit, technical competence, relevant domain experience, completeness of early core team.",
+    "criteria": {
+      "high": "Score 7-10: Proven domain expertise, balanced technical and business capabilities, prior startup or leadership track record.",
+      "medium": "Score 4-6.9: Capable team with relevant skills, but missing key functional domain or technical leadership.",
+      "low": "Score 0-3.9: Solo non-technical founder with no domain background and no technical execution partner."
+    }
+  },
+  "traction_growth": {
+    "name": "Traction & Growth",
+    "description": "User growth velocity, paying customer velocity, monthly growth rate (MoM), and cohort retention.",
+    "criteria": {
+      "high": "Score 7-10: Strong organic/paid MoM growth (> 15%), high retention, consistent customer acquisition.",
+      "medium": "Score 4-6.9: Steady growth (5-12% MoM) with moderate customer acquisition velocity and average churn.",
+      "low": "Score 0-3.9: Flat or declining growth (< 3% MoM), customer churn exceeding acquisition rate, high dormancy."
+    }
+  },
+  "financial_health": {
+    "name": "Financial Health",
+    "description": "Runway length (> 12-18 months healthy), monthly burn rate vs revenue, and capital efficiency.",
+    "criteria": {
+      "high": "Score 7-10: Runway >= 15 months, disciplined burn rate, clear path to cash-flow breakeven or next funding milestone.",
+      "medium": "Score 4-6.9: Runway 6-12 months, manageable burn, but requires imminent fundraising within 2 quarters.",
+      "low": "Score 0-3.9: Runway < 5 months with unsustainable burn rate and no committed bridge round."
+    }
+  },
+  "legal_compliance": {
+    "name": "Legal & Compliance Risk",
+    "description": "Regulatory exposure, IP protection, licensing mandates, data privacy (DPDP/GDPR), and regulatory compliance posture.",
+    "criteria": {
+      "high": "Score 7-10: Low regulatory friction or fully compliant with relevant licenses, data privacy standards, and IP secured.",
+      "medium": "Score 4-6.9: Moderate regulatory requirements (standard consent frameworks, basic licensing needed) with manageable compliance steps.",
+      "low": "Score 0-3.9: High regulatory risk (unlicensed financial activity, health non-compliance, active IP infringement, DPDP violations)."
+    }
+  }
+}
