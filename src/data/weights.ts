@@ -1,0 +1,31 @@
+export const WEIGHTS = {
+  running_startup: {
+    problem_solution_fit: 0.10,
+    market_size_timing: 0.10,
+    competition_moat: 0.10,
+    customer_demand: 0.10,
+    business_model: 0.10,
+    unit_economics: 0.125,
+    team_execution: 0.10,
+    traction_growth: 0.125,
+    financial_health: 0.10,
+    legal_compliance: 0.05
+  },
+  idea_stage: {
+    problem_solution_fit: 0.25,
+    market_size_timing: 0.20,
+    competition_moat: 0.15,
+    customer_demand: 0.20,
+    business_model: 0.10,
+    unit_economics: 0.0,
+    team_execution: 0.10,
+    traction_growth: 0.0,
+    financial_health: 0.0,
+    legal_compliance: 0.0
+  },
+  idea_stage_excluded_pillars: [
+    "unit_economics",
+    "traction_growth",
+    "financial_health"
+  ]
+};

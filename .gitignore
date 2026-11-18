@@ -32,7 +32,9 @@ backend/copilot.db
 *.sqlite3
 
 # Node & Frontend
+node_modules/
 frontend/node_modules/
+dist/
 frontend/.npm/
 npm-debug.log*
 yarn-debug.log*

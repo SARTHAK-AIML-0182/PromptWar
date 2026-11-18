@@ -5,23 +5,26 @@ Startup Co-Pilot is an end-to-end multi-agent AI system designed for early-stage
 
 ---
 
-## ⚡ Quickstart (Under 5 Commands)
+## ⚡ Quickstart (Under 3 Commands)
 
 ```bash
-# 1. Clone repository & navigate
-git clone https://github.com/example/startup-copilot.git
-cd startup-copilot
+# 1. Install dependencies
+npm install
 
-# 2. Install backend dependencies
-python -m pip install -r backend/requirements.txt
-
-# 3. (Optional) Set up environment keys; works offline in Mock Mode by default!
-cp .env.example .env
-
-# 4. Start the Application!
-python backend/run.py
+# 2. Run local development server
+npm run dev
 ```
-Open your browser at **`http://localhost:8000`** to experience the full app!
+Open **`http://localhost:5173`** in your browser!
+
+## 🚀 Deploying to Render (Pure React Static Site — No Docker)
+
+1. Push this repository to GitHub.
+2. In [Render Dashboard](https://dashboard.render.com), click **New +** → **Static Site**.
+3. Select your repository.
+4. Settings:
+   - **Build Command**: `npm install && npm run build`
+   - **Publish Directory**: `dist`
+5. Click **Create Static Site** — Render deploys it live in ~30 seconds!
 
 ---
 
